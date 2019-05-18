@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FDC43A</color>
+    <color name="colorPrimaryDark">#F9BC16</color>
+    <color name="colorAccent">#E5B316</color>
+
+
+    <color name="fundo">#DAFDC43A</color>
+    <color name="zoo">#D6F9BC16</color>
+    <color name="corTexto">#D6000000</color>
+
+</resources>

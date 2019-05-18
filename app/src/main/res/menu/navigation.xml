@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_agro"
+        android:icon="@drawable/ic_agro"
+        android:title="@string/agro" />
+
+    <item
+        android:id="@+id/navigation_zoo"
+        android:icon="@drawable/ic_zoo"
+        android:title="@string/zoo" />
+
+    <item
+        android:id="@+id/navigation_bio"
+        android:icon="@drawable/ic_bio"
+        android:title="@string/bio" />
+
+    <item
+        android:id="@+id/navigation_qui"
+        android:icon="@drawable/ic_quimi"
+        android:title="@string/qui" />
+
+    <item
+        android:id="@+id/navigation_sis"
+        android:icon="@drawable/of_sis"
+        android:title="@string/sis" />
+
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".atividades.DetalhesEvento"
+    tools:showIn="@layout/activity_detalhes_evento">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#FAFAFA"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+
+        <com.alespero.expandablecardview.ExpandableCardView
+            android:id="@+id/main_palestrante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:expandOnClick="true"
+            app:icon="@drawable/ic_person"
+            app:inner_view="@layout/palestrante_card"
+            app:title="Palestrante" />
+
+        <com.alespero.expandablecardview.ExpandableCardView
+            android:id="@+id/main_localizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:expandOnClick="true"
+            app:icon="@drawable/ic_location"
+            app:inner_view="@layout/localizacao_card"
+            app:title="Localização" />
+
+        <com.alespero.expandablecardview.ExpandableCardView
+            android:id="@+id/main_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:expandOnClick="true"
+            app:icon="@drawable/ic_dates"
+            app:inner_view="@layout/data_card"
+            app:title="Calendário" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

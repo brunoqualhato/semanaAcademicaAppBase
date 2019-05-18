@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Semana Acadêmica</string>
+    <string name="title_home">Palestras</string>
+    <string name="title_dashboard">Mini-Cursos</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_detalhes_evento">DetalhesEvento</string>
+
+    <string name="agro">Agro</string>
+    <string name="zoo">Zoo</string>
+    <string name="qui">Qui</string>
+    <string name="bio">Bio</string>
+    <string name="sis">SI</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="palestras">Palestras</string>
+    <string name="minicurso">MiniCursos</string>
+
+
+    <!--atalhos-->
+
+    <string name="id">zoo</string>
+    <string name="nomeCurto">Zootecnia</string>
+    <string name="appwidget_text">SEMANA ACADEMICA</string>
+    <string name="add_widget">Add widget</string>
+</resources>
