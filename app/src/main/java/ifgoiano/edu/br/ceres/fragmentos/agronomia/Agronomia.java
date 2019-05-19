@@ -232,17 +232,17 @@ public class Agronomia extends Fragment implements LinhaDoTempoAdapter.ItemClick
 
 
         MPalestrante Leyton = new MPalestrante(
-                "Leyton Tavares",
+                "Fernando Couto Araújo",
                 "",
                 R.drawable.ic_person,
                 "",
                 "Cooper-Rubi"
         );
         mList.add(new MPalestra(
-                "(VIII AGRÁRIAS)Palestra: Herbicidas e controle de plantas daninhas ",
+                "(VIII AGRÁRIAS) Palestra: Rotação de Culturas e Controle de Plantas Daninhas ",
                 "Auditório Multifuncional",
                 "Horário: 14:00 às 15:00", "1h",
-                "24/05/2019", R.raw.semana, Leyton
+                "24/05/2019", R.raw.fernando_couto, Leyton
         ));
 
 

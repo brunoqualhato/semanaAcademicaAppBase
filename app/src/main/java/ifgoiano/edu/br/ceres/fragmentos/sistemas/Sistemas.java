@@ -167,14 +167,14 @@ public class Sistemas extends Fragment implements LinhaDoTempoAdapter.ItemClickL
 
 
         MPalestrante cosplay = new MPalestrante(
-                "Concurso de Cosplay",
+                "Concurso de Cosplayers",
                 "",
                 R.drawable.ic_person,
                 "----",
                 "------"
         );
         mList.add(new MPalestra(
-                "Concurso de Cosplay",
+                "Concurso de Cosplayers",
                 "Miniauditório - Bloco E",
                 "Horário: 10:30 às 11:00",
                 "30min",
