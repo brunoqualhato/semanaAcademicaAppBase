@@ -1,3 +1,3 @@
 # Semana Acadêmica
 
-Aplicativo para exibir a lista de programação da III Semana Academica do IF Goiano Campus Ceres.
+Aplicativo para exibir a lista de programações da III Semana Academica do IF Goiano Campus Ceres.
